@@ -50,10 +50,8 @@ const MainWindow = () => {
             `https://reqres.in/api/login`
             ,
             {
-                // "email": state.login,
-                // "password": state.password
-                "email": "eve.holt@reqres.in",
-                "password": "cityslicka"
+                "email": state.login,
+                "password": state.password
             }).then(response => {
             console.log(response)
             stateCopy.checkUser = true
