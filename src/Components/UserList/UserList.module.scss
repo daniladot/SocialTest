@@ -1,0 +1,23 @@
+.UserList{
+  margin-top: 100px;
+  width: 1200px;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+
+  .BtnWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .AddUser{
+      width: 200px;
+      height: 60px;
+      border-radius: 10px;
+      background: green;
+    }
+  }
+
+}

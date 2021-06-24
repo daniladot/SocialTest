@@ -1,0 +1,29 @@
+.LogWindow{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .Log{
+    width: 200px;
+    height: 30px;
+  }
+
+  .PassWindow{
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+  }
+
+
+  .Button{
+    margin-top: 20px;
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    color: white;
+    background: #949b9f;
+  }
+}

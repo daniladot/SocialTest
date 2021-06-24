@@ -1,0 +1,32 @@
+.UserRow{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 200px;
+  margin-bottom: 50px;
+
+  .Avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+
+  .Name, .Email{
+    font-size: 20px;
+  }
+
+  .ButtonBlock{
+    display: flex;
+    flex-direction: column;
+
+    .ButtonAdd{
+      margin-bottom: 10px;
+      background: green;
+      width: 200px;
+      height: 60px;
+      border-radius: 10px;
+    }
+
+  }
+}
